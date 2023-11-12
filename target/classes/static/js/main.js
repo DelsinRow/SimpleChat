@@ -66,7 +66,7 @@ function sendMessage(event) {
     event.preventDefault();
 }
 
-
+//HERE!!!
 function onMessageReceived(payload) {
     var message = JSON.parse(payload.body);
 
